@@ -1,4 +1,4 @@
-import Balancer from "react-wrap-balancer";
+import Balancer from 'react-wrap-balancer';
 import {
   Card,
   CardContent,
@@ -6,19 +6,21 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from '@/components/ui/card';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Message } from "ai/react";
-import ReactMarkdown from "react-markdown";
-import { formattedText } from "@/lib/utils";
+} from '@/components/ui/accordion';
+import { Message } from 'ai/react';
+import ReactMarkdown from 'react-markdown';
+import { formattedText } from '@/lib/utils';
+import Image from 'next/image';
+import Logo from '../../public/augusta.jpg';
 
 const convertNewLines = (text: string) =>
-  text.split("\n").map((line, i) => (
+  text.split('\n').map((line, i) => (
     <span key={i}>
       {line}
       <br />
@@ -30,7 +32,7 @@ interface ChatLineProps extends Partial<Message> {
 }
 
 export function ChatLine({
-  role = "assistant",
+  role = 'assistant',
   content,
   sources,
 }: ChatLineProps) {
@@ -45,16 +47,28 @@ export function ChatLine({
         <CardHeader>
           <CardTitle
             className={
-              role != "assistant"
-                ? "text-amber-500 dark:text-amber-200"
-                : "text-blue-500 dark:text-blue-200"
+              role != 'assistant'
+                ? 'text-[#0066ff] dark:text-[#0066ff]'
+                : 'text-black dark:text-white'
             }
           >
-            {role == "assistant" ? "AI" : "You"}
+            <div className="flex space-x-2 items-center">
+              {role == 'assistant' && (
+                <Image
+                  alt="logo"
+                  src={Logo}
+                  width={30}
+                  className="rounded-full"
+                />
+              )}
+              <p>{role == 'assistant' ? 'AugustaGPT' : 'You'}</p>
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent className="text-sm">
-          <Balancer>{formattedMessage}</Balancer>
+          <Balancer className="dark:text-white text-black">
+            {formattedMessage}
+          </Balancer>
         </CardContent>
         <CardFooter>
           <CardDescription className="w-full">

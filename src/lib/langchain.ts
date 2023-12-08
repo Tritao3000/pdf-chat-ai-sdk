@@ -50,7 +50,7 @@ export async function callChain({ question, chatHistory }: callChainArgs) {
       )
       .then(async (res: any) => {
         const sourceDocuments = res?.sourceDocuments;
-        const firstTwoDocuments = sourceDocuments.slice(0, 4);
+        const firstTwoDocuments = sourceDocuments.slice(0, 2);
         const pageContents = firstTwoDocuments.map(
           ({ pageContent }: { pageContent: string }) => pageContent
         );

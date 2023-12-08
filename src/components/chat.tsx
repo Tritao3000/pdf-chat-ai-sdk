@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import { scrollToBottom, initialMessages, getSources } from "@/lib/utils";
-import { ChatLine } from "./chat-line";
-import { useChat, Message } from "ai-stream-experimental/react";
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
-import { Spinner } from "./ui/spinner";
-import { useEffect, useRef } from "react";
+import { scrollToBottom, initialMessages, getSources } from '@/lib/utils';
+import { ChatLine } from './chat-line';
+import { useChat, Message } from 'ai-stream-experimental/react';
+import { Input } from './ui/input';
+import { Button } from './ui/button';
+import { Spinner } from './ui/spinner';
+import { useEffect, useRef } from 'react';
 
 export function Chat() {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -36,13 +36,13 @@ export function Chat() {
       <form onSubmit={handleSubmit} className="p-4 flex clear-both">
         <Input
           value={input}
-          placeholder={"Type to chat with AI..."}
+          placeholder={'Type to chat with AI...'}
           onChange={handleInputChange}
           className="mr-2"
         />
 
-        <Button type="submit" className="w-24">
-          {isLoading ? <Spinner /> : "Ask"}
+        <Button type="submit" className="w-24 font-bold">
+          {isLoading ? <Spinner /> : 'Ask'}
         </Button>
       </form>
     </div>
