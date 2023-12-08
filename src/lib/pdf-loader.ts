@@ -1,19 +1,12 @@
 import { PDFLoader } from 'langchain/document_loaders/fs/pdf';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { env } from './config';
-import { UnstructuredLoader } from 'langchain/document_loaders/fs/unstructured';
+import { TextLoader } from 'langchain/document_loaders/fs/text';
 
 export async function getChunkedDocsFromPDF() {
   try {
-    let loaders = [
-      new PDFLoader('src/lib/ro.pdf'),
-      new PDFLoader('src/lib/joao.pdf'),
-      new PDFLoader('src/lib/intro.pdf'),
-    ];
-    let pages = [];
-    for (let loader of loaders) {
-      pages.push(...(await loader.load()));
-    }
+    const loader = new TextLoader('src/lib/augusta.txt');
+
+    const pages = await loader.load();
 
     // From the docs https://www.pinecone.io/learn/chunking-strategies/
     const textSplitter = new RecursiveCharacterTextSplitter({
