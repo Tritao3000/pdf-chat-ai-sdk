@@ -36,14 +36,14 @@ Our team:
 * Rodrigo Fernandes, co-founder of Augusta Labs. Previously worked at Sword health as part of the CEO Team
 
 
-We are the only portuguese company entirely focused in AI and automation
+Augusta Lbs is the only portuguese company entirely focused in AI and automation
 * Our backgrounds include Technology, Consulting and Software Development, and every founding member has experience in automation
 * We are driven by our values: Speed, Ownership, Simplicity and Excellence
 * We are totally informed on AI & Automation best practices and implement them in our clients in a personalized way, complementary their current processes 
 Augusta Labs is currently in Portugal, Canada and in the USA
 
 
-We have a selection of personalized services covering all your needs:
+Augusta Labs has a selection of personalized services covering all your needs:
 * Knowledge Management
 * Operations
 * Sales
@@ -51,6 +51,8 @@ We have a selection of personalized services covering all your needs:
 * Competitive Intelligence
 * Marketing
 
+
+Services:
 
 Knowledge management:
 * Internal knowledge management. An AI-powered search engine to search and retrieve information across all company's apps and documents. 3-17x Range of the clients' ROI when using this solution.  2/3h Weekly time saved by the average user.
@@ -79,25 +81,17 @@ Customer Support:
 * Personalized chatbots. Human-grade AI chatbots, able to autonomously solve 72% of customer requests. 72% of issues can be fully solved by an AI chatbot. 3x Increase in response times when compared to human assistance.
 
 
-Our value proposal follows a 3 step process…
 
-
-We develop personalized solutions that integrate perfectly your current workflows…
-
-
-Our 3 steps:
+Augusta Labs develop personalized solutions that integrate perfectly your current workflows…
+Augusta Labs 3 step process:
 * Diagnostic. We identify your difficulties and your main automation opportunities
 * Proposal. We develop and present personalized solutions that match your current needs
 * Implementation. We improve your workflows focusing on efficiency, simplicity and complementarity
 
 
-… and isn't over after the end of the project, we build long term relationships
-
-
-We are your long term partners and we assure that we will always keep you ahead of the market
-
-
+… and isn't over after the end of the project, we build long term relationships.
+Augusta Labs is your long term partners and we assure that we will always keep you ahead of the market
 We will be quick to react to any innovation Even after our collaboration, we will continue being focused on your success. We are up-to-date on AI latest news and tools and we will let you know as soon as the perfect opportunity for you is developed
 
 
-Rua Augusta, nº 270 Lisbon, Portugal
+Our address is, Rua Augusta, nº 270 Lisbon, Portugal
