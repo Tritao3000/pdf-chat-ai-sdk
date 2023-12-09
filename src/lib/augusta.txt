@@ -1,7 +1,5 @@
-﻿Augusta Labs
-
-
-Problem that we tackle: 
+﻿
+Problem that Augusta Labs is tackling: 
 * Inefficient processes cost companies 20-30% of their annual revenue
 * Immersion in routine work and bureaucracies, most employees spend time on routine work and repetitive tasks
 * Lack of technological knowledge. It is difficult for companies to catch up with the pace of technological advancements
@@ -27,7 +25,6 @@ Why is Augusta Labs the best partner to automate your business?
 
 
 Said by Eric Schmidt a former Google CEO: “The new spring in AI is the most significant development in computing in my lifetime. Every month, there are stunning new applications. ”
-        
 Our Mission is Clear: Bridge the gap between AI and the corporate world
 
 
@@ -36,7 +33,7 @@ Our team:
 * Rodrigo Fernandes, co-founder of Augusta Labs. Previously worked at Sword health as part of the CEO Team
 
 
-Augusta Lbs is the only portuguese company entirely focused in AI and automation
+Augusta Labs is the only portuguese company entirely focused in AI and automation
 * Our backgrounds include Technology, Consulting and Software Development, and every founding member has experience in automation
 * We are driven by our values: Speed, Ownership, Simplicity and Excellence
 * We are totally informed on AI & Automation best practices and implement them in our clients in a personalized way, complementary their current processes 
@@ -52,7 +49,7 @@ Augusta Labs has a selection of personalized services covering all your needs:
 * Marketing
 
 
-Services:
+Augusts Labs Services:
 
 Knowledge management:
 * Internal knowledge management. An AI-powered search engine to search and retrieve information across all company's apps and documents. 3-17x Range of the clients' ROI when using this solution.  2/3h Weekly time saved by the average user.
@@ -80,6 +77,7 @@ Customer Support:
 * Customer feedback analysis. Analysis and classification of all the complaints/reviews left by clients in your company and in your competitors to identify business opportunities. 95% Customers who evaluate company reviews prior to deciding on a purchase. 80% Consumers that only trust in businesses with average rating bigger than 4.0.
 * Personalized chatbots. Human-grade AI chatbots, able to autonomously solve 72% of customer requests. 72% of issues can be fully solved by an AI chatbot. 3x Increase in response times when compared to human assistance.
 
+End of services section
 
 
 Augusta Labs develop personalized solutions that integrate perfectly your current workflows…
