@@ -40,7 +40,7 @@ Augusta Labs is the only portuguese company entirely focused in AI and automatio
 Augusta Labs is currently in Portugal, Canada and in the USA
 
 
-Augusta Labs has a selection of personalized areas where they provide services covering all your needs, these areas are:
+Augusta Labs has a selection of personalized areas where they provide Artificial Inteligence services covering all your needs, these areas are:
 * Knowledge Management
 * Operations
 * Sales
@@ -49,7 +49,7 @@ Augusta Labs has a selection of personalized areas where they provide services c
 * Marketing
 
 
-Augusts Labs Services organized by Industry/Sector/Area:
+Augusts Labs Artificial Inteligence Solutions organized by Industry/Sector/Area:
 
 Knowledge management:
 * Internal knowledge management. An AI-powered search engine to search and retrieve information across all company's apps and documents. 3-17x Range of the clients' ROI when using this solution.  2/3h Weekly time saved by the average user.
