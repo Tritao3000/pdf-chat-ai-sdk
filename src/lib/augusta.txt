@@ -40,7 +40,7 @@ Augusta Labs is the only portuguese company entirely focused in AI and automatio
 Augusta Labs is currently in Portugal, Canada and in the USA
 
 
-Augusta Labs has a selection of personalized services covering all your needs:
+Augusta Labs has a selection of personalized areas where they provide services covering all your needs, these areas are:
 * Knowledge Management
 * Operations
 * Sales
@@ -49,35 +49,35 @@ Augusta Labs has a selection of personalized services covering all your needs:
 * Marketing
 
 
-Augusts Labs Services:
+Augusts Labs Services organized by Industry/Sector/Area:
 
 Knowledge management:
 * Internal knowledge management. An AI-powered search engine to search and retrieve information across all company's apps and documents. 3-17x Range of the clients' ROI when using this solution.  2/3h Weekly time saved by the average user.
-* Data management & analysis. Searching, cataloguing and monitoring all company's KPIs, increasing the efficiency of quantitative analysis. 90% Time saved in documentation in real use cases. 10h Weekly time saved by each analyst in real use cases 
+* Data management & analysis. Searching, cataloguing and monitoring all company's KPIs, increasing the efficiency of quantitative analysis. 90% Time saved in documentation in real use cases. 10h Weekly time saved by each analyst in real use cases.
 
 
 Operations:
 * Legal assistant. Simplified legal inquiries and workflows by leveraging legal sources to search information and creating proprietary documents from scratch. 89% Chance of the parallegal job being automatized. 90th GPT 4 already scores on the 90th percentile on the bar exam.
-* Meetings automation. Enables the transcription, storage and summarization of all company meetings. 83% Workers spend at least 1/3 of their working time in meetings. 5m Time needed to review and 1 hour meeting using AI 
-* Internal workflows automation. Support and efficiency improvements in the utilization of companies' current work tools. 70% Percentage of tasks that can be automatized. 10h Number of weekly hours saved due to workflow automation
+* Meetings automation. Enables the transcription, storage and summarization of all company meetings. 83% Workers spend at least 1/3 of their working time in meetings. 5m Time needed to review and 1 hour meeting using AI.
+* Internal workflows automation. Support and efficiency improvements in the utilization of companies' current work tools. 70% Percentage of tasks that can be automatized. 10h Number of weekly hours saved due to workflow automation.
 * Creation of GPT assistants. Enables ChatGPT utilization to its full potential and the creation of high performance models, specifically built for personalized functions, e.g: Data assistant: reads uploaded files/documents - creates tailored graphics and conclusions based on their data Onboarding assistants: Answers all your new employees' most common questions, specifically adapted for their role, tasks and tools. 50% Reduction on the time needed to perform the impacted tasks. 25% Improvement on the output quality.
 
 
 Competitive Intelligence: 
-* Competitors Benchmarking. 24/7 monitoring of competitors' information, including price, media presence, communications, products sold and open roles. 100% Uptime in monitoring competitors. 90% Reduction in the time needed to search and retrieve the relevant information
+* Competitors Benchmarking. 24/7 monitoring of competitors' information, including price, media presence, communications, products sold and open roles. 100% Uptime in monitoring competitors. 90% Reduction in the time needed to search and retrieve the relevant information.
 
 
 Sales: 
-* Lead generation and outreach. Eases the attainment of new highquality Sales leads and generates a personalized sales outreach using AI. 5h Average weekly time saved per worker. 35% Average revenue increase for companies that adopt these tools
+* Lead generation and outreach. Eases the attainment of new highquality Sales leads and generates a personalized sales outreach using AI. 5h Average weekly time saved per worker. 35% Average revenue increase for companies that adopt these tools.
 * Sales Ops. Enables the automation via text of the administrative tasks of a Sales Rep, through a virtual assistant. 66% Average time spent in Sales Ops by the average commercial. 10 - 20% ROI improvement attributable to the use of sales automation tools.
-* Revenue intelligence. Sales process analysis support in order to diagnose problems/tendencies and generate insights that can improve the commercial performance. 50% Increase of the deal conversion rate in real use cases. 38% Reduction of the average time to close a deal in real use cases
+* Revenue intelligence. Sales process analysis support in order to diagnose problems/tendencies and generate insights that can improve the commercial performance. 50% Increase of the deal conversion rate in real use cases. 38% Reduction of the average time to close a deal in real use cases.
 
 
 Customer Support:
 * Customer feedback analysis. Analysis and classification of all the complaints/reviews left by clients in your company and in your competitors to identify business opportunities. 95% Customers who evaluate company reviews prior to deciding on a purchase. 80% Consumers that only trust in businesses with average rating bigger than 4.0.
 * Personalized chatbots. Human-grade AI chatbots, able to autonomously solve 72% of customer requests. 72% of issues can be fully solved by an AI chatbot. 3x Increase in response times when compared to human assistance.
 
-End of services section
+
 
 
 Augusta Labs develop personalized solutions that integrate perfectly your current workflows…
@@ -85,7 +85,6 @@ Augusta Labs 3 step process:
 * Diagnostic. We identify your difficulties and your main automation opportunities
 * Proposal. We develop and present personalized solutions that match your current needs
 * Implementation. We improve your workflows focusing on efficiency, simplicity and complementarity
-
 
 … and isn't over after the end of the project, we build long term relationships.
 Augusta Labs is your long term partners and we assure that we will always keep you ahead of the market
