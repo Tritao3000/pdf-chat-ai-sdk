@@ -20,12 +20,18 @@ import Image from 'next/image';
 import Logo from '../../public/augusta.jpg';
 
 const convertNewLines = (text: string) =>
-  text.split('\n').map((line, i) => (
-    <span key={i}>
-      {line.replace(/"/g, '')}
-      <br />
-    </span>
-  ));
+  text.split('\n').map((line, i) => {
+    line.replace(/\n+/g, ' '); // Replace multiple consecutive new lines with a single space
+    line.replace(/(\w) - (\w)/g, '$1$2'); // Join hyphenated words together
+    line.replace(/\s+/g, ' '); // Replace multiple consecutive spaces with a single space
+    line.replace(/"/g, '');
+    return (
+      <span key={i}>
+        {line}
+        <br />
+      </span>
+    );
+  });
 
 interface ChatLineProps extends Partial<Message> {
   sources: string[];
