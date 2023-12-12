@@ -43,7 +43,7 @@ export function formattedText(inputText: string) {
 }
 
 export function formattedResponse(inputText: string) {
-  return inputText.replace(/"/g, '');
+  return inputText.replace(/"/g, '').replace(/clients'/g, 'clients');
 }
 
 // Default UI Message
