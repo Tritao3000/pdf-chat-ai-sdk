@@ -22,7 +22,7 @@ import Logo from '../../public/augusta.jpg';
 const convertNewLines = (text: string) =>
   text.split('\n').map((line, i) => (
     <span key={i}>
-      {line}
+      {line.replace(/"/g, '')}
       <br />
     </span>
   ));
@@ -41,10 +41,6 @@ export function ChatLine({
   }
 
   let formattedMessage = convertNewLines(content);
-  console.log(formattedMessage);
-  formattedMessage.forEach((element) => {
-    element.props.children[0].replace(/"/g, '');
-  });
   return (
     <div>
       <Card className="mb-2">
