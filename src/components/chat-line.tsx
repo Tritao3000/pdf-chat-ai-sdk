@@ -15,7 +15,7 @@ import {
 } from '@/components/ui/accordion';
 import { Message } from 'ai/react';
 import ReactMarkdown from 'react-markdown';
-import { formattedText } from '@/lib/utils';
+import { formattedText, formattedResponse } from '@/lib/utils';
 import Image from 'next/image';
 import Logo from '../../public/augusta.jpg';
 
@@ -42,7 +42,7 @@ export function ChatLine({
     return null;
   }
 
-  let formattedMessage = formattedText(content);
+  let formattedMessage = formattedResponse(content);
   let superFormattedMessage = convertNewLines(formattedMessage);
   return (
     <div>

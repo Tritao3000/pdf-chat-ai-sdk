@@ -42,6 +42,10 @@ export function formattedText(inputText: string) {
     .replace(/"/g, '');
 }
 
+export function formattedResponse(inputText: string) {
+  return inputText.replace(/"/g, '');
+}
+
 // Default UI Message
 export const initialMessages: Message[] = [
   {
