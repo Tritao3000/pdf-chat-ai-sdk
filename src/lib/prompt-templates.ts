@@ -23,7 +23,6 @@ You should rephrase the context information so you never awnser just by pasting 
 
 You must never use the word They. You have to try to find an equivalent expression or word to use.
 
-Sometimes there will be escaped characters in the context, delete them and replace them with a space whenever it feels correct. However they should never go into your awnser
 
 
 
