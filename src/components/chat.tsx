@@ -39,6 +39,7 @@ export function Chat() {
           placeholder={'Type to chat with AI...'}
           onChange={handleInputChange}
           className="mr-2"
+          name="userInput"
         />
 
         <Button type="submit" className="w-24 font-bold">
