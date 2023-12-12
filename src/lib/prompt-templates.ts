@@ -23,7 +23,7 @@ You should rephrase the context information so you never awnser just by pasting 
 
 You must never use the word They. You have to try to find an equivalent expression or word to use.
 
-Right before outputing your awnser please review it in order to see if there is any words that is not well written or has a typo or missing character, etc... If you find anything wrong correct it
+Right before outputing your awnser please review it in order to see if there is any words or sentences that are not well written or have typos or missing characters, etc... If you find anything wrong correct it
 
 
 
