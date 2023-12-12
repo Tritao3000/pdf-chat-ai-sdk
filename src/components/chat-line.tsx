@@ -42,7 +42,8 @@ export function ChatLine({
     return null;
   }
 
-  let formattedMessage = convertNewLines(content);
+  let formattedMessage = formattedText(content);
+  let superFormattedMessage = convertNewLines(formattedMessage);
   return (
     <div>
       <Card className="mb-2">
@@ -69,7 +70,7 @@ export function ChatLine({
         </CardHeader>
         <CardContent className="text-sm">
           <Balancer className="dark:text-white text-black">
-            {formattedMessage}
+            {superFormattedMessage}
           </Balancer>
         </CardContent>
         <CardFooter>
