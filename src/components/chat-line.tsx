@@ -39,8 +39,12 @@ export function ChatLine({
   if (!content) {
     return null;
   }
-  const formattedMessage = convertNewLines(content);
 
+  let formattedMessage = convertNewLines(content);
+  console.log(formattedMessage);
+  formattedMessage.forEach((element) => {
+    element.props.children[0].replace(/"/g, '');
+  });
   return (
     <div>
       <Card className="mb-2">
