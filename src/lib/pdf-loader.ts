@@ -1,31 +1,23 @@
-import { PDFLoader } from 'langchain/document_loaders/fs/pdf';
-import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { TextLoader } from 'langchain/document_loaders/fs/text';
+import { PDFLoader } from "langchain/document_loaders/fs/pdf";
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
+import { env } from "./config";
 
 export async function getChunkedDocsFromPDF() {
   try {
-    const loader = [
-      new TextLoader('src/lib/augusta.txt'),
-      new TextLoader('src/lib/founders.txt'),
-    ];
-
-    const pages = [];
-
-    for (const load of loader) {
-      pages.push(...(await load.load()));
-    }
+    const loader = new PDFLoader(env.PDF_PATH);
+    const docs = await loader.load();
 
     // From the docs https://www.pinecone.io/learn/chunking-strategies/
     const textSplitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 500,
-      chunkOverlap: 50,
+      chunkSize: 1000,
+      chunkOverlap: 200,
     });
 
-    const chunkedDocs = textSplitter.splitDocuments(pages);
+    const chunkedDocs = await textSplitter.splitDocuments(docs);
 
     return chunkedDocs;
   } catch (e) {
     console.error(e);
-    throw new Error('PDF docs chunking failed !');
+    throw new Error("PDF docs chunking failed !");
   }
 }

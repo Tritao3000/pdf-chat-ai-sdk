@@ -1,4 +1,4 @@
-import Balancer from 'react-wrap-balancer';
+import Balancer from "react-wrap-balancer";
 import {
   Card,
   CardContent,
@@ -6,72 +6,55 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
+} from "@/components/ui/card";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion';
-import { Message } from 'ai/react';
-import ReactMarkdown from 'react-markdown';
-import { formattedText, formattedResponse } from '@/lib/utils';
-import Image from 'next/image';
-import Logo from '../../public/augusta.jpg';
+} from "@/components/ui/accordion";
+import { Message } from "ai/react";
+import ReactMarkdown from "react-markdown";
+import { formattedText } from "@/lib/utils";
 
 const convertNewLines = (text: string) =>
-  text.split('\n').map((line, i) => {
-    return (
-      <span key={i}>
-        {line}
-        <br />
-      </span>
-    );
-  });
+  text.split("\n").map((line, i) => (
+    <span key={i}>
+      {line}
+      <br />
+    </span>
+  ));
 
 interface ChatLineProps extends Partial<Message> {
   sources: string[];
 }
 
 export function ChatLine({
-  role = 'assistant',
+  role = "assistant",
   content,
   sources,
 }: ChatLineProps) {
   if (!content) {
     return null;
   }
+  const formattedMessage = convertNewLines(content);
 
-  let formattedMessage = formattedResponse(content);
-  let superFormattedMessage = convertNewLines(formattedMessage);
   return (
     <div>
       <Card className="mb-2">
         <CardHeader>
           <CardTitle
             className={
-              role != 'assistant'
-                ? 'text-[#0066ff] dark:text-[#0066ff]'
-                : 'text-black dark:text-white'
+              role != "assistant"
+                ? "text-amber-500 dark:text-amber-200"
+                : "text-blue-500 dark:text-blue-200"
             }
           >
-            <div className="flex space-x-2 items-center">
-              {role == 'assistant' && (
-                <Image
-                  alt="logo"
-                  src={Logo}
-                  width={30}
-                  className="rounded-full"
-                />
-              )}
-              <p>{role == 'assistant' ? 'AugustaGPT' : 'You'}</p>
-            </div>
+            {role == "assistant" ? "AI" : "You"}
           </CardTitle>
         </CardHeader>
         <CardContent className="text-sm">
-          <Balancer className="dark:text-white text-black">
-            {superFormattedMessage}
-          </Balancer>
+          <Balancer>{formattedMessage}</Balancer>
         </CardContent>
         <CardFooter>
           <CardDescription className="w-full">
