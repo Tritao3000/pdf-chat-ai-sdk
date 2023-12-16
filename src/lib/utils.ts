@@ -45,7 +45,7 @@ export function formattedResponse(inputText: string) {
   return inputText
     .replace(/"/g, '')
     .replace(/clients'/g, 'clients')
-    .replace(/(?<=[a-zA-Z ])(0)(?=[a-zA-Z])/g, '')
+    .replace(/0/g, '')
     .replace(/\n+/g, ' ');
 }
 
