@@ -45,8 +45,7 @@ export function formattedResponse(inputText: string) {
   return inputText
     .replace(/"/g, '')
     .replace(/clients'/g, 'clients')
-    .replace(/0/g, '')
-    .replace(/\n+/g, ' ');
+    .replace(/0/g, '');
 }
 
 // Default UI Message
